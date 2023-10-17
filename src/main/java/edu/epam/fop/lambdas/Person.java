@@ -72,4 +72,20 @@ public final class Person {
         "birthdate=" + birthdate + ", " +
         "address=" + address + ']';
   }
+
+  public String getName() {
+    return name;
+  }
+
+  public String getSurname() {
+    return surname;
+  }
+
+  public LocalDate getBirthdate() {
+    return birthdate;
+  }
+
+  public Address getAddress() {
+    return address;
+  }
 }

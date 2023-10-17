@@ -71,4 +71,20 @@ public final class Company {
         "director=" + director + ", " +
         "officeAddress=" + officeAddress + ']';
   }
+
+  public String getName() {
+    return name;
+  }
+
+  public String getRegistrationUuid() {
+    return registrationUuid;
+  }
+
+  public Person getDirector() {
+    return director;
+  }
+
+  public Address getOfficeAddress() {
+    return officeAddress;
+  }
 }
